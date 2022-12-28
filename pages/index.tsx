@@ -20,8 +20,8 @@ const Home = () => {
             </Head>
 
             <main className="h-screen flex  w-screen item-center">
-                <div className="bg-blue-800 flex-1"></div>
-                <div className="p-10 flex flex-col w-[50%] gap-5 h-full justify-center items-center ">
+                <div className="bg-blue-800 flex-1 hidden xl:block"></div>
+                <div className="p-10 flex flex-col w-full xl:w-[50%] gap-5 h-full justify-center items-center ">
                     <div className="w-[400px]">
                         <h1 className="text-3xl font-semibold">
                             Bem-vindo(a) de volta!
