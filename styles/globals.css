@@ -2,9 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-.border-google{
-    border: 1px solid;
-    border-image-source: linear-gradient(91.74deg, #EB4335 4.35%, #FBBD04 24.39%, #34A953 51.42%, #4285F5 93.84%);
+.bordergoogle {
+    transition: all 2s ease-in;
+    border: none;
+}
 
-
+.bordergoogle:hover {
+    transition: all 2s ease-in;
+    background: linear-gradient(
+        91.74deg,
+        #eb4335 4.35%,
+        #fbbd04 24.39%,
+        #34a953 51.42%,
+        #4285f5 93.84%
+    );
 }

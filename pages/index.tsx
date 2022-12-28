@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Head from 'next/head'
 
 import { Input } from '../components/Input'
 import { Button } from '../components/Button'
@@ -21,8 +21,8 @@ const Home = () => {
 
             <main className="h-screen flex  w-screen item-center">
                 <div className="bg-blue-800 flex-1"></div>
-                <div className="p-10 flex flex-col gap-5 h-full justify-center ">
-                    <div>
+                <div className="p-10 flex flex-col w-[50%] gap-5 h-full justify-center items-center ">
+                    <div className="w-[400px]">
                         <h1 className="text-3xl font-semibold">
                             Bem-vindo(a) de volta!
                         </h1>
@@ -45,8 +45,9 @@ const Home = () => {
                         <div className="flex flex-col gap-4">
                             <Button text="Entrar" variant="blue" />
                             <Button
+                                icon="/googleLogo.svg"
                                 text="Entrar com o Google"
-                                variant="outline"
+                                variant="outlineGoogle"
                             />
                         </div>
                     </form>
