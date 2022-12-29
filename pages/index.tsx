@@ -44,13 +44,30 @@ const Home = () => {
 
                         <div className="flex flex-col gap-4">
                             <Button text="Entrar" variant="blue" />
+
+                            <div className="border border-b-gray-600/[0.4] w-[400px] flex justify-center"></div>
                             <Button
                                 icon="/googleLogo.svg"
                                 text="Entrar com o Google"
                                 variant="outlineGoogle"
                             />
+                            <Button
+                                icon="/GitHub-Mark.png"
+                                text="Entrar com o GitHub"
+                                variant="outlineGithub"
+                            />
                         </div>
                     </form>
+
+                    <div className="flex gap-2 text-sm font-light mt-5">
+                        <h4>Não tem conta?</h4>
+                        <a
+                            href="/signup"
+                            className="transition-all text-sky-700 font-normal hover:text-sky-400"
+                        >
+                            Inscreva-se
+                        </a>
+                    </div>
                 </div>
             </main>
         </>
